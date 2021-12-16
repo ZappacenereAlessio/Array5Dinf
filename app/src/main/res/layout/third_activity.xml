@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".ThirdActivity">
 
 
-    <ListView
-        android:id="@+id/listviewFilms"
-        android:layout_width="425dp"
-        android:layout_height="582dp"
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="365dp"
+        android:layout_height="613dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/interstellar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
